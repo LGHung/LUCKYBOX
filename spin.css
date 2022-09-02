@@ -1,0 +1,83 @@
+body{
+    background: url(./5-star.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.center_box{
+    margin: auto;
+    text-align: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    width: 70%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: whitesmoke;
+}
+.center_box h1{
+    margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+#prize{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 3% 0 3% 0;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+::placeholder{
+    text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-image: linear-gradient(to left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.enter{
+    background-image: linear-gradient(to left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    width: 40%;
+    margin: auto;
+    padding: 3% 0 3% 0;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+#list-number{
+  background-image: linear-gradient(to left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+#clear{
+  margin-top: 5%;
+}

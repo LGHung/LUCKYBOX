@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spin</title>
+    <link rel="stylesheet" href="./spin.css">
+</head>
+<body>
+    <div class="center_box">
+        <h1>MÁY GACHA QUÀ LUCKY BOX</h1>
+        <input onfocus="clearThis(this)" type="number" id="prize" placeholder="Số lượng box quà">
+        <br>
+        <button class="enter" id="enter" onclick="give_result()">ENTER</button>
+        <div class="list" id="list-result">
+            
+        </div>
+        <button class="enter" id="clear" onclick="clears()">CLEAR</button>
+    </div>
+    <script src="./spin.js"></script>
+</body>
+</html>
